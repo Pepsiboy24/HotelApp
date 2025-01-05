@@ -1,0 +1,63 @@
+.carousel-item, .testimonial-slider{
+      height: 100vh;
+    }
+		.carousel-caption{
+			padding-bottom: 100px;
+		}
+    .testimonials{
+      margin-top: 90px;
+    }
+    .carousel-item img{
+      object-fit: cover;
+    }
+    .ammenities-card{
+    	height: 120px;
+    }
+    .testi{
+    	height: 60vh
+    }
+.img{
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)) ,url("https://www.hilton.com/im/en/ABUHITW/10564207/abuhi-0445.tif?impolicy=crop&cw=6720&ch=2821&gravity=NorthWest&xposition=0&yposition=589&rw=1920&rh=806");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      object-fit: cover;
+    }
+    .about-img{
+    	
+    }
+
+    @media screen and (max-width: 750px){
+    	.about-img{
+        display: none;
+      }
+      .about-write{
+        text-align: center;
+      }
+      .first-row{
+        flex-wrap: wrap;
+      }  
+      .first-row .card{
+        height: 150px;
+        /*padding-bottom: 20px*/
+      } 
+      .first-row .card .card-body{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+      } 
+      .first-row .card .card-body .writeUps{
+        text-align: center;
+      } 
+      .second-row{
+        flex-wrap: wrap;
+        padding-top: 20px;
+      }
+      .second-row .card .card-body{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+      } 
+    }
